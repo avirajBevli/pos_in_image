@@ -5,6 +5,7 @@
 
 //The webcamera had been calibrated by "CameraCalibration.cpp" and the result has been saved in the file "The_camera_calibration_matrix"
 //The result obtained from calibrating the web camera have been used in this program(The instrinsic matrix)
+//We ignore the distortion parameters obtained from calibration 
 
 //In this program, we will feed in the 4 corners of the door in the world coordinate frame
 //We then display the outline of the door in the webcam frame(the bounding blue box)
